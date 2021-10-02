@@ -49,5 +49,5 @@ spec:
       paths:
       - backend:
           serviceName: rajeshtilwani3-node-sample-app-master
-          servicePort: 84
+          servicePort: 85
         path: /
