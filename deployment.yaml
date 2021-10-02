@@ -18,6 +18,9 @@ spec:
       containers:
       - name: rajeshtilwani3-node-sample-app-master
         image: 715285876037.dkr.ecr.ap-south-1.amazonaws.com/rajeshtilwani3-node-sample-app-master:latest
+        env:
+          - name: timestamp
+            value: $(date --date="-1 hour" +"%Y-%m-%dT%H:%M:%SZ")
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
