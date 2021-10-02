@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: rajeshtilwani3-node-sample-app-master
+        test: not
     spec:
       containers:
       - name: rajeshtilwani3-node-sample-app-master
