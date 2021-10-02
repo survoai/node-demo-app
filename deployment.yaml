@@ -13,7 +13,7 @@ spec:
       labels:
         app: rajeshtilwani3-node-sample-app-master
       annotations: 
-        date: placeholder
+        date: placeholder1
     spec:
       containers:
       - name: rajeshtilwani3-node-sample-app-master
