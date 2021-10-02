@@ -13,7 +13,7 @@ spec:
       labels:
         app: rajeshtilwani3-node-sample-app-master
       annotations: 
-        date: "+%H:%M:%S %d/%m/%y"
+        date: "$date"
     spec:
       containers:
       - name: rajeshtilwani3-node-sample-app-master
