@@ -12,7 +12,8 @@ spec:
     metadata:
       labels:
         app: rajeshtilwani3-node-sample-app-master
-        test: not
+      annotations: 
+        date: "+%H:%M:%S %d/%m/%y"
     spec:
       containers:
       - name: rajeshtilwani3-node-sample-app-master
