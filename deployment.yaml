@@ -12,9 +12,6 @@ spec:
     metadata:
       labels:
         app: rajeshtilwani3-node-sample-app-master
-        date: placeholder
-      annotations: 
-        date: placeholder1
     spec:
       containers:
       - name: rajeshtilwani3-node-sample-app-master
