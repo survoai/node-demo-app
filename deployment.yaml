@@ -27,7 +27,7 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-  - port: 80
+  - port: 81
     targetPort: 80
   selector:
     app: rajeshtilwani3-node-sample-app-master
