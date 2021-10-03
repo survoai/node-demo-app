@@ -28,6 +28,7 @@ spec:
   type: ClusterIP
   ports:
   - port: 81
+    name: my-port
     targetPort: 80
   selector:
     app: rajeshtilwani3-node-sample-app-master
