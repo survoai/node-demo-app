@@ -46,7 +46,7 @@ metadata:
 spec:
   rules:
 
-  - host: rajeshtilwani3-node-sample-app-master.devops.humalect.com
+  - host: nope.devops.humalect.com
     http:
       paths:
       - backend:
