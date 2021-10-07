@@ -46,7 +46,7 @@ metadata:
 spec:
   rules:
 
-  - host: nope.devops.humalect.com
+  - host: nope1.devops.humalect.com
     http:
       paths:
       - backend:
