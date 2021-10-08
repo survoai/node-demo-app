@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: rajeshtilwani3-node-sample-app-master
-        image: 715285876037.dkr.ecr.ap-south-1.amazonaws.com/rajeshtilwani3-node-sample-app-master:latest
+        image: 715285876037.dkr.ecr.ap-south-1.amazonaws.com/rajeshtilwani3-node-sample-app:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
