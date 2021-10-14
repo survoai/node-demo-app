@@ -42,8 +42,14 @@ metadata:
     nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
     nginx.ingress.kubernetes.io/rewrite-target: /
     kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt-staging"
 
 spec:
+  tls:
+  - hosts:
+    - nope8.devops.humalect.com
+    secretName: echo-tls
+    
   rules:
 
   - host: nope8.devops.humalect.com
