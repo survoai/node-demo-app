@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", (req, res, next) => {
- res.json(["rajesh1","Lisas","hello","ginger","Rajesh2"]);
+ res.json(["rajesh","Lisa","hello","ginger","Rajesh"]);
 });
 
 
